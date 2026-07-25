@@ -34,6 +34,9 @@ MonoBehaviour:
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 0
+  filter:
+    m_OverrideState: 0
+    m_Value: 0
   downscale:
     m_OverrideState: 0
     m_Value: 0
@@ -127,7 +130,7 @@ MonoBehaviour:
     m_Value: 4
   densityMultiplier:
     m_OverrideState: 1
-    m_Value: 0.33
+    m_Value: 0.3
   densityCurve:
     m_OverrideState: 1
     m_Value:
@@ -210,7 +213,7 @@ MonoBehaviour:
       m_RotationOrder: 4
   shapeFactor:
     m_OverrideState: 1
-    m_Value: 0.87
+    m_Value: 0.9
   shapeScale:
     m_OverrideState: 0
     m_Value: 5
@@ -324,17 +327,17 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 3200
   shapeOffset:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {x: 0, y: 0, z: 0}
   earthCurvature:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   globalSpeed:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 25.07
   globalOrientation:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 360
   shapeSpeedMultiplier:
     m_OverrideState: 0
     m_Value: 1
@@ -351,16 +354,16 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   ambientLightProbeDimmer:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   sunLightDimmer:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   erosionOcclusion:
     m_OverrideState: 0
     m_Value: 0.1
   scatteringTint:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {r: 0, g: 0, b: 0, a: 1}
   powderEffectIntensity:
     m_OverrideState: 0
@@ -369,10 +372,10 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.5
   shadows:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   shadowResolution:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 256
   shadowDistance:
     m_OverrideState: 0
@@ -384,7 +387,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   temporalAccumulationFactor:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.95
   perceptualBlending:
     m_OverrideState: 1
@@ -478,7 +481,7 @@ MonoBehaviour:
   active: 1
   distance:
     m_OverrideState: 1
-    m_Value: 0.25
+    m_Value: 0.1
   cropToFit:
     m_OverrideState: 0
     m_Value: 1
